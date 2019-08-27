@@ -1,0 +1,45 @@
+@import "variables.scss";
+@import url("https://fonts.googleapis.com/css?family=Bubblegum+Sans&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root,
+html,
+body {
+  background-color: $firstColor;
+}
+
+h1,
+h3,
+h4 {
+  color: $thirdColor;
+  font-family: "Bubblegum Sans", cursive;
+}
+
+h3 {
+  font-size: 3.8em !important;
+}
+
+h4 {
+  font-size: 3.2em !important;
+}
+
+.primaryBtn {
+  background-color: $thirdColor !important;
+  color: #222 !important;
+  font-size: 1.2em !important;
+  font-weight: bold !important;
+  padding: 10px !important;
+}
